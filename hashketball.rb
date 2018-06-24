@@ -81,7 +81,7 @@ def player_numbers(team_name)
       end
     elsif team_name == game_hash[:home][:team_name]
   end
-  array
+  puts array
 end
 
 player_numbers("Brooklyn Nets")
