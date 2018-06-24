@@ -64,3 +64,10 @@ def team_colors(name)
     return game_hash[:away][:colors]
   end
 end
+
+def team_names()
+  array = []
+  array.push(game_hash[:home][:team_name])
+  array.push(game_hash[:away][:team_name])
+
+
