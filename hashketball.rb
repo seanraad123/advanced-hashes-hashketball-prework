@@ -84,7 +84,6 @@ def player_numbers(team_name)
          array.push(x[:number])
        end
   end
-  puts array
+  array
 end
 
-player_numbers("Charlotte Hornets")
