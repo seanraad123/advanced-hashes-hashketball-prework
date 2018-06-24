@@ -71,3 +71,8 @@ def team_names()
   array.push(game_hash[:away][:team_name])
   array
 end
+
+
+def player_numbers(team_name)
+
+
