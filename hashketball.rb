@@ -31,15 +31,15 @@ end
 def num_points_scored(player)
    game_hash[:home][:players].each do |x|
     if x[:player_name] == player
-      puts x[:points]
+      return x[:points]
     else
       game_hash[:away][:players].each do |x|
         if x[:player_name] == player
-          puts x[:points]
+          return x[:points]
         end
       end
     end
   end
 end
 
-num_points_scored("Jeff Adrien")
+puts num_points_scored("Jeff Adrien")
