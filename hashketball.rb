@@ -58,4 +58,4 @@ end
 
 
 def team_colors(name)
-  game_hash[:home]
+  puts game_hash[:home]
