@@ -91,6 +91,10 @@ def player_stats(player_name)
   game_hash[:home][:players].each do |x|
     if x[:player_name] == player_name
       return x
+    else
+      game_hash[:away][:players].each do |x|
+        x[:player_name] == player_name
+          return x
     end
  end
 end
