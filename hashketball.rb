@@ -58,6 +58,7 @@ end
 
 
 def team_colors(name)
+  if name == game_hash[:home][:team_name]
   puts game_hash[:home][:colors]
 end
 
