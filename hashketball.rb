@@ -3,7 +3,7 @@
 
 def game_hash
   {:home => {
-   	 
+
   :team_name => 'Brooklyn Nets',
   :colors => ['black', 'white'],
   :players => [
@@ -15,7 +15,6 @@ def game_hash
   ]
   },
 }
-'''
   :away => {
     team_name: "Charlotte Hornets",
     colors: ["Turquoise", "Purple"],
@@ -72,7 +71,7 @@ def game_hash
       },
     },
   }
-}'''
+}
 end
 
 def num_points_scored(player_name)
