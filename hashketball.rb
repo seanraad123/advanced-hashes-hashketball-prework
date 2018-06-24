@@ -92,8 +92,6 @@ def player_stats(player_name)
     print player_name
     if x[:player_name] == player_name
       print "TRUE"
-    else
-      print "FALSE"
     end
  end
 end
