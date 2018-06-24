@@ -95,4 +95,4 @@ def player_stats(player_name)
   end
 end
 
-player_stats("Bismak Biyombo")
+player_stats("Brook Lopez")
