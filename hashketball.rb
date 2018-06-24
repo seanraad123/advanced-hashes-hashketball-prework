@@ -80,6 +80,8 @@ def player_numbers(team_name)
          array.push(x[:number])
       end
     elsif team_name == game_hash[:home][:team_name]
+      game_hash[:away][:players].each do |x|
+         array.push(x[:number])
   end
   puts array
 end
