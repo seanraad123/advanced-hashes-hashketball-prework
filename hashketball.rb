@@ -49,9 +49,9 @@ def shoe_size(player)
     else
       game_hash[:away][:players].each do |x|
         if x[:player_name] == player
-          puts x[:player_name][player]
+          puts x[:player_name][:shoe]
         end
-        edn
+      end
     end
   end
 end
