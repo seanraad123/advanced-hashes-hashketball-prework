@@ -59,10 +59,9 @@ end
 
 def team_colors(name)
   if name == game_hash[:home][:team_name]
-    print game_hash[:home][:colors]
+    return game_hash[:home][:colors]
   elsif name == game_hash[:away][:team_name]
-    print game_hash[:away][:colors]
+    return game_hash[:away][:colors]
   end
 end
 
-team_colors("Brooklyn Nets")
