@@ -41,5 +41,3 @@ def num_points_scored(player)
     end
   end
 end
-
-puts num_points_scored("Brendan Haywood")
