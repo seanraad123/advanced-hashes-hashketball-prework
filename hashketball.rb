@@ -44,7 +44,7 @@ end
 
 def shoe_size(player)
    game_hash[:home][:players].each do |x|
-    puts x
+    puts x[:shoe]
   end
 end
 
