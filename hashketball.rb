@@ -56,6 +56,8 @@ def shoe_size(player)
   end
 end
 
+shoe_size("Jeff Adrien")
+
 
 
 
