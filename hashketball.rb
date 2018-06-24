@@ -90,7 +90,6 @@ end
 def player_stats(player_name)
   game_hash[:home][:players].each do |x|
    if x[:player_name] == player_name
-     print "TR"
    end
  end
 end
