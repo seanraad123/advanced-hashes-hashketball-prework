@@ -3,7 +3,7 @@
 
 def game_hash
   {:home => {
-   	 
+
   :team_name => 'Brooklyn Nets',
   :colors => ['black', 'white'],
   :players => [
@@ -75,10 +75,10 @@ def game_hash
 }'''
 
 
-def num_points_scored(player_name)
-  game_hash[:home_team][:players].each do |a|
-    if a[:name] == player_name
-      return a[:points]
-    end
-  end
-end
+#def num_points_scored(player_name)
+#  game_hash[:home_team][:players].each do |a|
+#    if a[:name] == player_name
+#      return a[:points]
+#    end
+#  end
+#end
