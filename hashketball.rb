@@ -100,4 +100,4 @@ def player_stats(player_name)
   end
 end
 
-player_stats("Brook Lopez")
+player_stats("DeSagna Diop")
