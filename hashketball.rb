@@ -37,6 +37,7 @@ def num_points_scored(player)
         if x[:player_name] == player
           puts x[:points]
         end
+      end
     end
   end
 end
