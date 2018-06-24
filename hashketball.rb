@@ -31,7 +31,7 @@ end
 def num_points_scored(player)
    game_hash[:home][:players].each do |x|
     if a[:player_name] == player
-  #    puts a[:points]
+      puts a[:points]
   #  end
   end
 end
