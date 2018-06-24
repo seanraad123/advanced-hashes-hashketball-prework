@@ -29,7 +29,7 @@ def game_hash
 end
 
 def num_points_scored(player)
-   game_hash[:home][:players].each do |x|
+   game_hash[:away][:players].each do |x|
     if x[:player_name] == player
       puts x[:points]
     end
