@@ -89,7 +89,7 @@ end
 
 def player_stats(player_name)
   game_hash[:home][:players].each do |x|
-    print x
+    print x[:player_name]
  end
 end
 
