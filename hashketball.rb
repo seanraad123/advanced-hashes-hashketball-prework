@@ -58,7 +58,7 @@ end
 
 
 def team_colors(name)
-  puts game_hash[:home]
+  puts game_hash[:home][:colors]
 end
 
 team_colors("Brooklyn Nets")
