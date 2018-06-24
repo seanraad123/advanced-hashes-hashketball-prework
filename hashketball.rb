@@ -87,4 +87,4 @@ def player_numbers(team_name)
   puts array
 end
 
-player_numbers("Brooklyn Nets")
+player_numbers("Charlotte Hornets")
