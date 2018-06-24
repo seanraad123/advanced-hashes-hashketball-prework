@@ -89,10 +89,9 @@ end
 
 def player_stats(player_name)
   game_hash[:home][:players].each do |x|
-    puts x[:player_name]
-   #if x[:player_name] == player_name
-  #   print x
-  # end
+   if x[:player_name] == player_name
+     print x
+   end
  end
 end
 
