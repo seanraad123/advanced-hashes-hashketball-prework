@@ -91,6 +91,8 @@ def player_stats(player_name)
   game_hash[:home][:players].each do |x|
     if player_name == x[:player_name]
       print x
+    end
+  end
 end
 
 player_stats("Bismak Biyombo")
