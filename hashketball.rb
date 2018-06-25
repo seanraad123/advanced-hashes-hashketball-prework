@@ -122,6 +122,9 @@ def big_shoe_rebounds
   end
 
 
+  print array[-1]
+
+
 
 end
 
