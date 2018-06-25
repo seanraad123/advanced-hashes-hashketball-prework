@@ -135,7 +135,7 @@ def big_shoe_rebounds
     end
   end
 
-  print player_with_largest_shoe
+  player_with_largest_shoe
   
 end
 
