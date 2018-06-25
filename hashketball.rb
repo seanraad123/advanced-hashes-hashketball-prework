@@ -124,18 +124,18 @@ def big_shoe_rebounds
   #Look in the away team for the player with the largest shoe
   game_hash[:away][:players].each do |x|
     if x[:shoe] == array[-1]
-      print x[:player_name]
+      player_with_largest_shoe = x[:player_name]
     end
   end
 
   #Look in the home team for the player with the largest shoe
   game_hash[:home][:players].each do |x|
     if x[:shoe] == array[-1]
-      print x[:player_name]
+      player_with_largest_shoe = x[:player_name]
     end
   end
 
-  
+
 
 end
 
