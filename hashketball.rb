@@ -103,8 +103,12 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
+  array = []
   game_hash[:home][:players].each do |x|
-    puts x[:player_name].to_s + " shoe size: " + x[:shoe].to_s
+    array.push[x[:shoe]]
+    array.sort do |a, b|
+      a <=> b
+    end
   end
 end
 
