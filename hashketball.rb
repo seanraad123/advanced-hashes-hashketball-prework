@@ -125,6 +125,7 @@ def big_shoe_rebounds
   game_hash[:away][:players].each do |x|
     if x[:shoe] == array[-1]
       print x[:player_name]
+    end
 
 
 
