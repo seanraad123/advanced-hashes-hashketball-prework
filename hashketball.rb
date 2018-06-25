@@ -105,6 +105,7 @@ end
 def big_shoe_rebounds
   array = []
 
+  #Find largets shoe on the home team
   game_hash[:home][:players].each do |x|
     array.push(x[:shoe])
   end
@@ -112,6 +113,7 @@ def big_shoe_rebounds
     a <=> b
   end
 
+  #Find largets shoe on the away team
   game_hash[:away][:players].each do |x|
     array.push(x[:shoe])
   end
@@ -119,7 +121,8 @@ def big_shoe_rebounds
     a <=> b
   end
 
-  print array
+
+
 end
 
 big_shoe_rebounds
