@@ -119,6 +119,9 @@ def big_shoe_rebounds
     a <=> b
   end
 
+  print array_away
+  print array_home
+
 end
 
 big_shoe_rebounds
