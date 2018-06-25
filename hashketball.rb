@@ -115,7 +115,7 @@ def big_shoe_rebounds
   game_hash[:away][:players].each do |x|
     array_away.push(x[:shoe])
   end
-  array_home = array_home.sort do |a, b|
+  array_away = array_away.sort do |a, b|
     a <=> b
   end
 
