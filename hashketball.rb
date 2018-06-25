@@ -103,24 +103,21 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  array_home = []
-  array_away = []
+  array = []
+  
   game_hash[:home][:players].each do |x|
-    array_home.push(x[:shoe])
+    array.push(x[:shoe])
   end
-  array_home = array_home.sort do |a, b|
+  array = array.sort do |a, b|
     a <=> b
   end
 
   game_hash[:away][:players].each do |x|
     array_away.push(x[:shoe])
   end
-  array_away = array_away.sort do |a, b|
+  array = array.sort do |a, b|
     a <=> b
   end
-
-  print array_away
-  print array_home
 
 end
 
